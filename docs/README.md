@@ -18,4 +18,4 @@ Programa para a Matéria de Desenvolvimento Web
   | :---: |
 
 --------------------
- ![](https://github.com/jacksonn455/Desenvolvimento-css/blob/master/assets/images/page.png)
+ ![](https://github.com/jacksonn455/desenvolvimento-web-aula-css/blob/master/assets/images/page.png)
