@@ -1,73 +1,69 @@
+/* Importa as fontes 'Krona One' e 'Montserrat' do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-/* Zera as margens e os espaçamentos de todos os elementos */
-*{
-    margin: 0;
-    padding: 0;
+/* Zera as margens e os espaçamentos de todos os elementos na página */
+* {
+    margin: 0; /* Remove todas as margens padrão */
+    padding: 0; /* Remove todos os espaçamentos internos padrão */
 }
 
 /* Define o estilo básico do corpo da página */
-body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+body {
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela de visualização */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo do tamanho total do elemento */
+    background-color: #000000; /* Define a cor de fundo do corpo da página como preto */
+    color: #F6F6F6; /* Define a cor do texto como um tom claro (quase branco) */
 }
 
 /* Define a cor vermelha para o texto em negrito */
-strong{
-    color: #C81111;
-}
-
-/* Define a cor vermelha para o texto com a classe .titulo-destaque */
-.titulo-destaque{
-    color: #C81111;
+strong {
+    color: #C81111; /* Muda a cor do texto em negrito para vermelho */
 }
 
 /* Define o estilo e o layout da seção de apresentação */
-.apresentacao{
-    margin: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.apresentacao {
+    margin: 10% 15%; /* Define margens de 10% no topo e embaixo, e 15% nas laterais */
+    display: flex; /* Utiliza o modelo de layout flexbox */
+    align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
+    justify-content: space-between; /* Distribui os itens horizontalmente com espaço entre eles */
 }
 
 /* Define o estilo do conteúdo dentro da seção de apresentação */
-.apresentacao__conteudo{
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.apresentacao__conteudo {
+    width: 615px; /* Define uma largura fixa para o conteúdo */
+    display: flex; /* Utiliza o modelo de layout flexbox */
+    flex-direction: column; /* Organiza os elementos em uma coluna vertical */
+    gap: 40px; /* Define um espaçamento de 40px entre os itens da coluna */
 }
 
 /* Define o estilo do título da apresentação */
-.apresentacao__conteudo__titulo{
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+.apresentacao__conteudo__titulo {
+    font-size: 36px; /* Define o tamanho da fonte como 36px */
+    font-family: 'Krona One', sans-serif; /* Define a fonte como 'Krona One', com 'sans-serif' como fallback */
 }
 
 /* Define o estilo do texto da apresentação */
-.apresentacao__conteudo__texto{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+.apresentacao__conteudo__texto {
+    font-size: 24px; /* Define o tamanho da fonte como 24px */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte como 'Montserrat', com 'sans-serif' como fallback */
 }
 
 /* Define o layout dos links de apresentação */
-.apresentacao__links{
-    display: flex;
-    justify-content: space-between;
+.apresentacao__links {
+    display: flex; /* Utiliza o modelo de layout flexbox */
+    justify-content: space-between; /* Distribui os links horizontalmente com espaço entre eles */
 }
 
 /* Define o estilo dos links individuais de apresentação */
-.apresentacao__links__link{
-    background-color: #F6F6F6;
-    width: 280px;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
+.apresentacao__links__link {
+    background-color: #F6F6F6; /* Define a cor de fundo dos links como um tom claro */
+    width: 280px; /* Define uma largura fixa para os links */
+    text-align: center; /* Centraliza o texto dentro dos links */
+    border-radius: 16px; /* Aplica bordas arredondadas com raio de 16px */
+    font-size: 24px; /* Define o tamanho da fonte como 24px */
+    font-weight: 600; /* Define o peso da fonte como 600 (semi-negrito) */
+    padding: 21.5px 0; /* Aplica um espaçamento interno de 21.5px no topo e embaixo */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #000000; /* Define a cor do texto dos links como preto */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte dos links como 'Montserrat', com 'sans-serif' como fallback */
 }
